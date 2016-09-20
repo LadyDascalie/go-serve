@@ -3,10 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/gorilla/handlers"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/gorilla/handlers"
 )
 
 var port = flag.String("port", "8080", "Define what TCP port to bind to")
